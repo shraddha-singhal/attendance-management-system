@@ -2,7 +2,7 @@
 """
 Created on Sun May 17 2020
 
-@author: Rishabh Aggarwal & Shiva Sharma
+@author: Shraddha Singhal
 """
 
 import tkinter as tk
@@ -254,7 +254,7 @@ quitWindow = tk.Button(window, text="Quit", command=window.destroy  ,fg="red"  ,
 quitWindow.place(x=1100, y=500)
 copyWrite = tk.Text(window, background=window.cget("background"), borderwidth=0,font=('times', 30, 'italic bold underline'))
 copyWrite.tag_configure("superscript", offset=10)
-copyWrite.insert("insert", "Developed by Rishabh & Shiva","", "TEAM", "superscript")
+copyWrite.insert("insert", "Developed by Shraddha","", "TEAM", "superscript")
 copyWrite.configure(state="disabled",fg="red"  )
 copyWrite.pack(side="left")
 copyWrite.place(x=800, y=750)
